@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Oswald&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+ 
+.navbar{
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    margin-top: -100px;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 50px;
+}
+
+.navbar .logo a :hover{
+    color: red;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar .menu li a:hover{
+    color: red;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+//--main body--//
+
+
+.home{
+    width: 1300px;
+    height: 500px;
+    background-color: skyblue;
+    margin: 100px auto 50px auto;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 10px;   
+}
+
+.home h1{
+    padding: 10px;
+}
+
+.about{
+    width: 1300px;
+    height: 400px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about .green{
+    background-color: lightgreen;
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.about__section{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.team{
+    width: 1300px;
+    height: 400px;
+    margin: 30px auto;
+    font-family: 'Rubik', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.team .orange{
+    background-color: orange;
+    margin: 5px;
+    border-radius: 15px;
+    border: 2px solid #000;
+}
+
+.team__section{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.service{
+    width: 1300px;
+    height: 400px;
+    margin: 30px auto;
+    font-family: 'Rubik', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.service__section{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.service .purple{
+    background-color: purple;
+    margin: 4px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.contact{
+    width: 1300px;
+    height: 400px;
+    margin: 30px auto 0 auto;
+    font-family: 'Rubik', sans-serif;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.contact__section{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.contact .coral{
+    background-color: coral;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.coral__2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.coral__3{
+    background-color: coral;
+    margin: 10px;
+    border-radius: 7px;
+    border: 2px solid #000;
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    list-style-type: none;
+}
+
+footer h1{
+    margin-top: 20px;
+    margin-left: 25px;
+    color: red;
+    font-family: 'League Gothic', sans-serif;
+}
+
+footer h3{
+    margin-left: 25px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer h2{
+    margin-left: 60px;
+    margin-top: 15px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer .socials li{
+ color: #fff;
+ list-style: none;
+ display: inline-block;
+ width: 40px;
+ margin-top: 10px;
+ margin-left: 5px;
+ overflow: hidden;
+ border-radius: 50%;
+}
+
+footer .socials li:hover{
+    background-color: red;
+   }
+
+footer .socials li a{
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    line-height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+   }
+
+footer .intro{
+    margin-left: 35px;
+}
+
+footer .adress{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 25px;
+}
+
+footer .adress h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+}
+
+footer .adress li{
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+footer .adress p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 13px;
+}
+
+footer .adress .location{
+    display: inline-flex;
+}
+
+footer .adress .copyright{
+    display: inline-flex;
+}
+
+
+footer .adress .gmail{
+    display: inline-flex;
+}
