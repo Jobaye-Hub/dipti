@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: 'poppins'  !important;
+}
+
+.navbar-brand{
+    font-weight: 600 !important;
+    font-size: 40px !important;
+    color: #4A4A4A;
+}
+
+.nav-item a{
+    font-weight: 400 !important;
+    color: #777777 !important;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.carousel-item p{
+    color: #F4F4F4;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 30px !important;
+}
+
+.carousel-item h1{
+    color: #F4F4F4;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 85px;
+}
+
+.card-overlay{
+    background: rgba(0,0,0,0.9);
+}
+
+.carousel-item img{
+    opacity: 40%;
+    align-items: center;
+}
+
+.carousel-caption{
+    margin-top: -750px;
+}
+
+.btn-primary{
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+}
+
+.discover p{
+    color: #777777;
+    margin-top: 20px;
+}
